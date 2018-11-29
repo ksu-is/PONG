@@ -3,7 +3,7 @@ Create the game, PONG. PONG is a simple game where it emulates playing table ten
 
 Will be using pygames and VisualStudios to write and run the game. Seems like a lot of GitHub users are using this for simple games they have created.
 
-Will use the basic black background with a 800X800 window to run the game. Would like to have a yellow and white paddle to go use KSU themed colors. Some creators are using a square "ball" but we will use a circular ball. 
+Will use the basic black background with a 800X600 window to run the game. Would like to have a yellow and white paddle to go use KSU themed colors. Some creators are using a square "ball" but we will use a circular ball. 
 
 Project being worked on by Kyle and Joe.
 
