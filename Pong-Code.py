@@ -42,14 +42,14 @@ ball.goto(0, 0)
 ball.dx = 2
 ball.dy = -2
 
-# Pen
-pen = turtle.Turtle()
-pen.speed(0)
-pen.color("white")
-pen.penup()
-pen.hideturtle()
-pen.goto(0, 260)
-pen.write("Player A: 0  Player B: 0", align="center", font=("Courier", 24, "normal"))
+# Score
+score = turtle.Turtle()
+score.speed(0)
+score.color("white")
+score.penup()
+score.hideturtle()
+score.goto(0, 260)
+score.write("Player 1: 0  Player 2: 0", align="center", font=("Courier", 24, "normal"))
 
 # Function
 def paddle_a_up():
@@ -74,8 +74,8 @@ def paddle_b_down():
 
 # Keyboard binding
 wn.listen()
-wn.onkeypress(paddle_a_up, "w")
-wn.onkeypress(paddle_a_down, "s")
+wn.onkeypress(paddle_a_up, "q")
+wn.onkeypress(paddle_a_down, "a")
 wn.onkeypress(paddle_b_up, "Up")
 wn.onkeypress(paddle_b_down, "Down")
 
